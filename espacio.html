@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pisende | Espacios que sorprenden</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, , maximum-scale=1.0, user-scalable=no">
+        <!--link(rel="icon", type="image/png", href="https://stirpe.co/img/faviconstirpe.png")-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="bg--AZ page-espacios">
+        <header class="header fixed-top">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="header__menu mr-3">
+                    <div class="header__icon" id="icon-menu"><i class="fas fa-bars fa-lg"></i></div>
+                </div>
+                <div class="header__espacio d-flex align-items-center">
+                    <div class="header__espacio-logo d-none d-sm-block"><img class="img-fluid" src="img/icon_bano.svg" alt="Baños"></div>
+                    <div class="header__espacio-titulo">
+                        <h3>BAÑOS</h3>
+                    </div>
+                </div>
+                <div class="header__opciones d-flex align-items-center">
+                    <div class="header__sizes ml-5"><a class="header__size active"><span>S</span></a><a class="header__size"><span>M</span></a><a class="header__size"><span>L</span></a></div>
+                    <div class="header__filtros d-flex"><button class="btn-filtros d-none d-sm-block" type="button"><span class="d-none d-sm-inline">Mostrar</span> Filtros</button><button class="btn-materiales ml-2 d-none d-sm-block d-lg-none" type="button"> <span class="d-none d-sm-inline">Mostrar</span> Materiales</button>
+                        <div class="dropdown d-sm-none"><button id="verMasHeader" type="button" data-toggle="dropdown"><i class="fas fa-ellipsis-v"></i>
+                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Filtros</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Materiales</a>
+                                </div>
+                            </button></div>
+                    </div>
+                </div><a class="header__logo"><img src="img/logo_pisende.png" alt="Logo Pisende."></a>
+            </div>
+        </header>
+        <section class="pisende container-fluid">
+            <div class="row no-gutters">
+                <article class="espacio col-xl-7 col-lg-6 col-md-12" id="imagenFondoEspacio" style="background-image:url('img/bano.jpg')">
+                    <div class="espacio__opciones d-flex">
+                        <div class="opcion d-flex">
+                            <div class="opcion__icono"><img class="img-fluid" src="img/btn_descargas.svg"></div>
+                            <div class="opcion__titulo"><span>DESCARGAR</span></div>
+                        </div>
+                        <div class="opcion d-flex">
+                            <div class="opcion__icono"><img class="img-fluid" src="img/btn_estadisticas.svg"></div>
+                            <div class="opcion__titulo"><span>ESTADÍSTICAS</span></div>
+                        </div>
+                        <div class="opcion d-flex">
+                            <div class="opcion__icono"><img class="img-fluid" src="img/btn_calculadora.svg"></div>
+                            <div class="opcion__titulo"><span>CALCULADORA</span></div>
+                        </div>
+                        <div class="opcion d-flex">
+                            <div class="opcion__icono"><img class="img-fluid" src="img/btn_comentarios.svg"></div>
+                            <div class="opcion__titulo"><span>COMENTARIOS</span></div>
+                        </div>
+                        <div class="opcion d-flex">
+                            <div class="opcion__icono"><img class="img-fluid" src="img/btn_comprar.svg"></div>
+                            <div class="opcion__titulo"><span>COMPRAR</span></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-xl-2 col-lg-3 col-md-12">
+                    <div class="espacio__thumbnails">
+                        <h3 class="text-center">PISOS</h3>
+                        <div class="galeria_wrap">
+                            <div class="galeria d-flex flex-row flex-lg-column flex-wrap justify-content-center">
+                                <div class="galeria__item d-flex flex-column mb-3 align-items-center"><a class="galeria__imagen" href="#" data-imagen="img/bano.jpg"><img class="img-fluid" src="img/p1.jpg"></a><span class="my-2 text-center">REF:</span></div>
+                                <div class="galeria__item d-flex flex-column mb-3 align-items-center"><a class="galeria__imagen" href="#" data-imagen="img/bano2.jpg"><img class="img-fluid" src="img/p2.jpg"></a><span class="my-2 text-center">REF:</span></div>
+                                <div class="galeria__item d-flex flex-column mb-3 align-items-center"><a class="galeria__imagen" href="#" data-imagen="img/bano3.jpg"><img class="img-fluid" src="img/p3.jpg"></a><span class="my-2 text-center">REF:</span></div>
+                                <div class="galeria__item d-flex flex-column mb-3 align-items-center"><a class="galeria__imagen" href="#" data-imagen="img/bano4.jpg"><img class="img-fluid" src="img/p4.jpeg"></a><span class="my-2 text-center">REF:</span></div>
+                                <div class="galeria__item d-flex flex-column mb-3 align-items-center"><a class="galeria__imagen" href="#" data-imagen="img/bano5.jpg"><img class="img-fluid" src="img/p5.jpeg"></a><span class="my-2 text-center">REF:</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-xl-3 col-lg-3 col-md-12 bg-gray d-none d-lg-block">
+                    <div class="espacio__menu">
+                        <h3>COMBINA MÁS MATERIALES</h3>
+                        <ul class="nav flex-column nav__materiales">
+                            <li class="nav-item active"><a class="nav-link" data-material="1">PISOS</a></li>
+                            <li class="nav-item"><a class="nav-link" data-material="2">PAREDES</a></li>
+                            <li class="nav-item"><a class="nav-link" data-material="3">DECORADOS</a></li>
+                            <li class="nav-item"><a class="nav-link" data-material="4">MUEBLES PARA VESSEL</a></li>
+                            <li class="nav-item"><a class="nav-link" data-material="5">MUEBLES PARA LAVAMANOS</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="js/vendor/plugins.js"></script>
+        <script src="js/scripts.min.js"></script>
+    </body>
+</html>
